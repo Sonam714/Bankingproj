@@ -1,7 +1,11 @@
 <html>
+    <head>
+        <script src="bank.js"></script>
+    </head>
     <body>
+        <h1>Simple Interest Calculation</h1>
         Enter Principal Amount:
-        <input type="text" id=" amt"/>
+        <input type="text" id="amt"/>
         <br/>
         Enter Time Period:
         <input type="text" id="nper"/>
@@ -9,6 +13,7 @@
         Enter rate of Interest:
         <input type="text" id="rate"/>
         <br/>
-        <input type ="button" value="SI"/>
+        <input type ="button" value="SI" onclick="calculateSI()"/>
+        <p id="res">Result:</p>
     </body>
 </html>
